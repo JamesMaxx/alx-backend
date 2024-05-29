@@ -42,8 +42,7 @@ def get_locale():
     """
     Determines the locale for the current request.
 
-    Returns:
-        str: The best matching locale from the accepted languages in the request.
+    Returns a str: The best match from the accepted languages in the request.
     """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
