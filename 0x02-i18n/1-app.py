@@ -7,6 +7,7 @@ from flask_babel import Babel
 
 class Config(object):
 
+
     """
     Configuration class for the Flask app
     """
